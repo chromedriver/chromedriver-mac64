@@ -1,0 +1,20 @@
+{
+    "name": "chromedriver/chromedriver-mac64",
+    "description": "Composer distribution of Chromedriver. Adds a executable to your composer bin directory.",
+    "type": "project",
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Nico Müller",
+            "email": "nico.mueller.1989@googlemail.com"
+        }
+    ],
+    "homepage": "https://github.com/chromedriver/chromedriver-mac64",
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "bin": [
+        "bin/chromedriver-mac64"
+    ]
+}
